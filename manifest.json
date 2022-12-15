@@ -1,0 +1,25 @@
+{
+	"browser_specific_settings": {
+		"gecko": {
+			"strict_min_version": "58.0a1"
+		}
+	},
+	"browser_action": {
+		"browser_style": true,
+		"default_title": "Playlist",
+		"default_popup": "playlist.html"
+	},
+	"description": "Playlist to play/pause audible tabs (a chrome like feature)",
+	"homepage_url": "https://github.com/sihanchen01/playlist",
+	"manifest_version": 2,
+	"name": "Playlist (Chrome-like)",
+	"icons": {
+		"16": "images/playlist.svg",
+		"32": "images/playlist.svg",
+		"48": "images/playlist.svg",
+		"64": "images/playlist.svg",
+		"128": "images/playlist.svg"
+	},
+	"permissions": ["tabs", "activeTab", "<all_urls>"],
+	"version": "1.0"
+}
