@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <h3>Playlist</h3>
+    <hr>
+    <div id="tabs-list">
+      <div class="tab">
+        <div class="video-info">
+          <div class="source">
+            <img class="website-icon" src="${tab.favIconUrl}" />
+            <p>music.youtube.com</p>
+          </div>
+          <a class="switch-tabs" href="${tab.id}" data-window-id="${tab.windowId}">Lorem ipsum dolor sit, amet
+            consectetur consect consect</a>
+        </div>
+        <div class="controls">
+          <div class="control-button mute-tab" data-id="${tab.id}">M</div>
+          <div class="control-button play-pause" data-id="${tab.id}">P</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="playlist.js"></script>
+</body>
+
+</html>
